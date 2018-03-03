@@ -1,0 +1,9 @@
+(module TstPad_SMD (layer F.Cu) (tedit 5A4F83A1)
+  (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value eTstPad_SMD (at 0 0) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at 0 0) (size 2 2) (layers F.Cu F.Paste F.Mask))
+)

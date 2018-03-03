@@ -1,0 +1,34 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +10V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +1V2(FPGA)
+K POWER, PWR
+$ENDCMP
+#
+$CMP +2V5(FPGA)
+K POWER, PWR
+$ENDCMP
+#
+$CMP +3V3(FPGA)
+K POWER, PWR
+$ENDCMP
+#
+$CMP AMS1117
+D 1A Low Dropout regulator, positive, adjustable output, NRND
+K linear regulator ldo adjustable positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP HR911105A
+D RJ45 with transformer + leds WURTH
+K RJ45
+$ENDCMP
+#
+$CMP VIN
+K POWER, PWR
+$ENDCMP
+#
+#End Doc Library
