@@ -27,6 +27,18 @@ D RJ45 with transformer + leds WURTH
 K RJ45
 $ENDCMP
 #
+$CMP MicroSD
+D Micro SD Card Socket
+K connector SD microsd
+F http://katalog.we-online.de/em/datasheet/693072010801.pdf
+$ENDCMP
+#
+$CMP Micro_SD_Card
+D Micro SD Card Socket
+K connector SD microsd
+F http://katalog.we-online.de/em/datasheet/693072010801.pdf
+$ENDCMP
+#
 $CMP VIN
 K POWER, PWR
 $ENDCMP
